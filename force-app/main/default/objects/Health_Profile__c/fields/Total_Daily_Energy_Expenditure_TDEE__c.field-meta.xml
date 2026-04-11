@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Daily_Energy_Expenditure_TDEE__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(Activity_Factor__c,
+&quot;Sedentary&quot;, Basal_Metabolic_Rate_BMR__c * 1.2,
+&quot;Exercise 1-3&quot;, Basal_Metabolic_Rate_BMR__c * 1.3,
+&quot;Exercise 4-5&quot;, Basal_Metabolic_Rate_BMR__c * 1.5,
+&quot;Exercise 6-7&quot;, Basal_Metabolic_Rate_BMR__c * 1.7,
+Basal_Metabolic_Rate_BMR__c * 1.9)</formula>
+    <label>Total Daily Energy Expenditure (TDEE)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

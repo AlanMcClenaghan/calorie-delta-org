@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Basal_Metabolic_Rate_BMR__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+TEXT(BMR_Estimation_Method__c) = &quot;Harris-Benedict Equation&quot;,
+66.5 + (13.75 * Weight__c) + (5.003 * Height__c ) - (6.755 * Age__c ),
+(10 * Weight__c) + (6.25 * Height__c) - (5 * Age__c) + 5
+)</formula>
+    <label>Basal Metabolic Rate (BMR)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>
