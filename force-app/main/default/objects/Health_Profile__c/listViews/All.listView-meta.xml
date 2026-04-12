@@ -9,7 +9,6 @@
     <columns>Height__c</columns>
     <columns>Weight__c</columns>
     <columns>Total_Daily_Energy_Expenditure_TDEE__c</columns>
-    <columns>Target_Calories__c</columns>
     <filterScope>Everything</filterScope>
     <label>All</label>
 </ListView>

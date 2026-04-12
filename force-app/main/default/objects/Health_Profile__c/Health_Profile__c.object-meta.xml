@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <actionOverrides>
         <actionName>Accept</actionName>
         <type>Default</type>
@@ -169,7 +169,7 @@
         <searchResultsAdditionalFields>Height__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Weight__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Total_Daily_Energy_Expenditure_TDEE__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Target_Calories__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields xsi:nil></searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

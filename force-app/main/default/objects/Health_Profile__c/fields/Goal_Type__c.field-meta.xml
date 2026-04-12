@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Goal_Type__c</fullName>
+    <label>Goal Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Lose Weight - Fast</fullName>
+                <default>false</default>
+                <label>Lose Weight - Fast</label>
+            </value>
+            <value>
+                <fullName>Lose Weight - Moderate</fullName>
+                <default>false</default>
+                <label>Lose Weight - Moderate</label>
+            </value>
+            <value>
+                <fullName>Lose Weight - Slow</fullName>
+                <default>false</default>
+                <label>Lose Weight - Slow</label>
+            </value>
+            <value>
+                <fullName>Maintain Weight</fullName>
+                <default>false</default>
+                <label>Maintain Weight</label>
+            </value>
+            <value>
+                <fullName>Gain Weight</fullName>
+                <default>false</default>
+                <label>Gain Weight</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

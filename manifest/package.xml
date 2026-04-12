@@ -29,6 +29,10 @@
         <name>FlexiPage</name>
     </types>
     <types>
+        <members>*</members>
+        <name>Flow</name>
+    </types>
+    <types>
         <members>Health_Profile__c-Health Profile Layout</members>
         <name>Layout</name>
     </types>
