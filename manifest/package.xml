@@ -2,6 +2,18 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>*</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>Calorie_Delta_Admin</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>*</members>
         <name>CustomObject</name>
     </types>
     <types>
@@ -13,6 +25,10 @@
         <name>CustomTab</name>
     </types>
     <types>
+        <members>*</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
         <members>Health_Profile__c-Health Profile Layout</members>
         <name>Layout</name>
     </types>
@@ -21,16 +37,9 @@
         <name>LightningComponentBundle</name>
     </types>
     <types>
-        <members>*</members>
-        <name>ApexClass</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexTrigger</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>FlexiPage</name>
+        <members>Health_Profile__c.All</members>
+        <members>Health_Profile__c.RecentlyViewed</members>
+        <name>ListView</name>
     </types>
     <types>
         <members>*</members>
