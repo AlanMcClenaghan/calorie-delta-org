@@ -38,7 +38,6 @@
     </types>
     <types>
         <members>Health_Profile__c.All</members>
-        <members>Health_Profile__c.RecentlyViewed</members>
         <name>ListView</name>
     </types>
     <types>
