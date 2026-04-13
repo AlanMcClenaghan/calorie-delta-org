@@ -18,6 +18,10 @@
     <tabs>standard-Contact</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
+    <tabs>Meal_Log__c</tabs>
+    <tabs>Daily_Record_Log__c</tabs>
+    <tabs>Exercise_Log__c</tabs>
+    <tabs>Weight_Log__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Calorie_Delta_Admin_UtilityBar</utilityBar>
 </CustomApplication>
