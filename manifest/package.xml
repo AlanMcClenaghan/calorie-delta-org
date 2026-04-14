@@ -34,6 +34,7 @@
     </types>
     <types>
         <members>Health_Profile__c-Health Profile Layout</members>
+        <members>Weight_Log__c-Weight Log Layout</members>
         <name>Layout</name>
     </types>
     <types>
