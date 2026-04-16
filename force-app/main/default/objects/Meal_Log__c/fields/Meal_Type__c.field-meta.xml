@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Serving_Size__c</fullName>
-    <label>Serving Size</label>
-    <required>false</required>
+    <fullName>Meal_Type__c</fullName>
+    <label>Meal Type</label>
+    <required>true</required>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
@@ -11,19 +11,24 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>g</fullName>
-                <default>false</default>
-                <label>g</label>
+                <fullName>Breakfast</fullName>
+                <default>true</default>
+                <label>Breakfast</label>
             </value>
             <value>
-                <fullName>ml</fullName>
+                <fullName>Lunch</fullName>
                 <default>false</default>
-                <label>ml</label>
+                <label>Lunch</label>
             </value>
             <value>
-                <fullName>Container</fullName>
+                <fullName>Dinner</fullName>
                 <default>false</default>
-                <label>Container</label>
+                <label>Dinner</label>
+            </value>
+            <value>
+                <fullName>Snack</fullName>
+                <default>false</default>
+                <label>Snack</label>
             </value>
         </valueSetDefinition>
     </valueSet>
