@@ -152,17 +152,17 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <externalSharingModel>ControlledByParent</externalSharingModel>
-    <label>Exercise Log</label>
+    <externalSharingModel>Private</externalSharingModel>
+    <label>Exercise Set</label>
     <nameField>
-        <displayFormat>EL-{00000000}</displayFormat>
-        <label>Exercise Log Number</label>
+        <displayFormat>ES-{00000000}</displayFormat>
+        <label>Exercise Set Number</label>
         <trackHistory>false</trackHistory>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Exercise Logs</pluralLabel>
+    <pluralLabel>Exercise Sets</pluralLabel>
     <searchLayouts></searchLayouts>
-    <sharingModel>ControlledByParent</sharingModel>
+    <sharingModel>ReadWrite</sharingModel>
     <startsWith>Vowel</startsWith>
     <visibility>Public</visibility>
 </CustomObject>

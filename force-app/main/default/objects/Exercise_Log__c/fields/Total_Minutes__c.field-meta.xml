@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Minutes__c</fullName>
+    <label>Total Minutes</label>
+    <summarizedField>Exercise_Log_Item__c.Duration_Minutes__c</summarizedField>
+    <summaryForeignKey>Exercise_Log_Item__c.Exercise_Log__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

@@ -24,6 +24,9 @@
     <tabs>Weight_Log__c</tabs>
     <tabs>Food_Reference__c</tabs>
     <tabs>Food_Reference_Component__c</tabs>
+    <tabs>Exercise__c</tabs>
+    <tabs>Exercise_Log_Item__c</tabs>
+    <tabs>Exercise_Set__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Calorie_Delta_Admin_UtilityBar</utilityBar>
 </CustomApplication>

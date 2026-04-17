@@ -153,16 +153,15 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
-    <label>Exercise Log</label>
+    <label>Exercise Log Item</label>
     <nameField>
-        <displayFormat>EL-{00000000}</displayFormat>
-        <label>Exercise Log Number</label>
+        <displayFormat>ELI-{00000000}</displayFormat>
+        <label>Exercise Log Item Number</label>
         <trackHistory>false</trackHistory>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Exercise Logs</pluralLabel>
+    <pluralLabel>Exercise Log Items</pluralLabel>
     <searchLayouts></searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
-    <startsWith>Vowel</startsWith>
     <visibility>Public</visibility>
 </CustomObject>
