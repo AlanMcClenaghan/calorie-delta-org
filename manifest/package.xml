@@ -34,6 +34,7 @@
     </types>
     <types>
         <members>Health_Profile__c-Health Profile Layout</members>
+        <members>Daily_Record_Log__c-Daily Record Log Layout</members>
         <members>Weight_Log__c-Weight Log Layout</members>
         <name>Layout</name>
     </types>
@@ -43,11 +44,17 @@
     </types>
     <types>
         <members>Health_Profile__c.All</members>
+        <members>Daily_Record_Log__c.All</members>
+        <members>Weight_Log__c.All</members>
         <name>ListView</name>
     </types>
     <types>
         <members>*</members>
         <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>Health_Profile__c.New_Daily_Record_Log</members>
+        <name>WebLink</name>
     </types>
     <version>66.0</version>
 </Package>

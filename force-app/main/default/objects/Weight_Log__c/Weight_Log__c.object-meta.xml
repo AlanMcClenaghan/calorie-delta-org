@@ -161,7 +161,14 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Weight Logs</pluralLabel>
-    <searchLayouts></searchLayouts>
+    <searchLayouts>
+        <searchResultsAdditionalFields>Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Time__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Weight__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Daily_Record_Log__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Health_Profile__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CREATED_DATE</searchResultsAdditionalFields>
+    </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

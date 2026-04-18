@@ -161,7 +161,12 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Daily Record Logs</pluralLabel>
-    <searchLayouts></searchLayouts>
+    <searchLayouts>
+        <searchResultsAdditionalFields>Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Health_Profile__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Total_Daily_Calories__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CREATED_DATE</searchResultsAdditionalFields>
+    </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Health_Profile_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Health_Profile__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Health_Profile_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Health_Profile__c</pageOrSobjectType>
+    </actionOverrides>
     <brand>
         <headerColor>#0070D2</headerColor>
         <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
@@ -14,19 +32,16 @@
     <label>Calorie Delta Admin</label>
     <navType>Standard</navType>
     <tabs>Health_Profile__c</tabs>
+    <tabs>Daily_Record_Log__c</tabs>
+    <tabs>Meal_Log__c</tabs>
+    <tabs>Exercise_Log__c</tabs>
+    <tabs>Weight_Log__c</tabs>
+    <tabs>Food_Reference__c</tabs>
+    <tabs>Exercise__c</tabs>
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
-    <tabs>Meal_Log__c</tabs>
-    <tabs>Daily_Record_Log__c</tabs>
-    <tabs>Exercise_Log__c</tabs>
-    <tabs>Weight_Log__c</tabs>
-    <tabs>Food_Reference__c</tabs>
-    <tabs>Food_Reference_Component__c</tabs>
-    <tabs>Exercise__c</tabs>
-    <tabs>Exercise_Log_Item__c</tabs>
-    <tabs>Exercise_Set__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Calorie_Delta_Admin_UtilityBar</utilityBar>
 </CustomApplication>
