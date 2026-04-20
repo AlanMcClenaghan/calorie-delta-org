@@ -35,6 +35,10 @@
     <types>
         <members>Health_Profile__c-Health Profile Layout</members>
         <members>Daily_Record_Log__c-Daily Record Log Layout</members>
+        <members>Exercise__c-Exercise Layout</members>
+        <members>Exercise_Log__c-Exercise Log Layout</members>
+        <members>Exercise_Log_Item__c-Exercise Log Item Layout</members>
+        <members>Exercise_Set__c-Exercise Set Layout</members>
         <members>Weight_Log__c-Weight Log Layout</members>
         <name>Layout</name>
     </types>
@@ -45,6 +49,10 @@
     <types>
         <members>Health_Profile__c.All</members>
         <members>Daily_Record_Log__c.All</members>
+        <members>Exercise__c.All</members>
+        <members>Exercise_Log__c.All</members>
+        <members>Exercise_Log_Item__c.All</members>
+        <members>Exercise_Set__c.All</members>
         <members>Weight_Log__c.All</members>
         <name>ListView</name>
     </types>
