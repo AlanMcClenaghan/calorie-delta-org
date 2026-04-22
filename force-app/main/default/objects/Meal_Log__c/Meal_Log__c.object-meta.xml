@@ -161,7 +161,12 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Meal Logs</pluralLabel>
-    <searchLayouts></searchLayouts>
+    <searchLayouts>
+        <searchResultsAdditionalFields>Meal_Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Daily_Record_Log__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Daily_Record_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Total_Calories__c</searchResultsAdditionalFields>
+    </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

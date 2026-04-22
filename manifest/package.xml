@@ -39,6 +39,8 @@
         <members>Exercise_Log__c-Exercise Log Layout</members>
         <members>Exercise_Log_Item__c-Exercise Log Item Layout</members>
         <members>Exercise_Set__c-Exercise Set Layout</members>
+        <members>Food_Reference__c-Food Reference Layout</members>
+        <members>Food_Reference_Component__c-Food Reference Component Layout</members>
         <members>Meal_Log__c-Meal Log Layout</members>
         <members>Meal_Item__c-Meal Item Layout</members>
         <members>Weight_Log__c-Weight Log Layout</members>
@@ -55,6 +57,7 @@
         <members>Exercise_Log__c.All</members>
         <members>Exercise_Log_Item__c.All</members>
         <members>Exercise_Set__c.All</members>
+        <members>Food_Reference__c.All</members>
         <members>Meal_Log__c.All</members>
         <members>Weight_Log__c.All</members>
         <name>ListView</name>
