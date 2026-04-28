@@ -7,7 +7,7 @@
                     <name>actionNames</name>
                     <valueList>
                         <valueListItems>
-                            <value>CustomButton.Health_Profile__c.New_Daily_Record_Log</value>
+                            <value>Health_Profile__c.Log_Weight</value>
                         </valueListItems>
                         <valueListItems>
                             <value>Edit</value>
