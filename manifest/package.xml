@@ -67,6 +67,7 @@
         <name>PermissionSet</name>
     </types>
     <types>
+        <members>Health_Profile__c.Log_Exercise</members>
         <members>Health_Profile__c.Log_Weight</members>
         <name>QuickAction</name>
     </types>
