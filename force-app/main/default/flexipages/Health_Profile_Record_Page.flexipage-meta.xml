@@ -7,6 +7,9 @@
                     <name>actionNames</name>
                     <valueList>
                         <valueListItems>
+                            <value>Health_Profile__c.Log_Meal</value>
+                        </valueListItems>
+                        <valueListItems>
                             <value>Health_Profile__c.Log_Exercise</value>
                         </valueListItems>
                         <valueListItems>
