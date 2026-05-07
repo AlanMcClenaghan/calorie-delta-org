@@ -27,7 +27,7 @@
                 <field>Daily_Record_Date__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Required</behavior>
                 <field>Number_of_Servings__c</field>
             </layoutItems>
         </layoutColumns>
