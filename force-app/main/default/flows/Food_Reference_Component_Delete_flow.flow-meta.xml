@@ -18,9 +18,34 @@
             <targetReference>Loop_Sibling_Records</targetReference>
         </connector>
     </assignments>
+    <decisions>
+        <name>Is_NOT_deleted_record</name>
+        <label>Is NOT deleted record?</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>Loop_Sibling_Records</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>IS Deleted record</defaultConnectorLabel>
+        <rules>
+            <name>Is_NOT_deleted</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Loop_Sibling_Records.Id</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>$Record.Id</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Calculate_Calories_per_Serving</targetReference>
+            </connector>
+            <label>Is NOT deleted</label>
+        </rules>
+    </decisions>
     <environments>Default</environments>
-    <interviewLabel>Food Reference Component Created or Updated flow {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>Food Reference Component Created or Updated flow</label>
+    <interviewLabel>Food Reference Component Delete flow {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Food Reference Component Delete flow</label>
     <loops>
         <name>Loop_Sibling_Records</name>
         <label>Loop Sibling Records</label>
@@ -29,7 +54,7 @@
         <collectionReference>Get_Sibling_Components</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
-            <targetReference>Calculate_Calories_per_Serving</targetReference>
+            <targetReference>Is_NOT_deleted_record</targetReference>
         </nextValueConnector>
         <noMoreValuesConnector>
             <targetReference>Update_Parent_Food_Reference</targetReference>
@@ -97,8 +122,8 @@
             <targetReference>Get_Sibling_Components</targetReference>
         </connector>
         <object>Food_Reference_Component__c</object>
-        <recordTriggerType>CreateAndUpdate</recordTriggerType>
-        <triggerType>RecordAfterSave</triggerType>
+        <recordTriggerType>Delete</recordTriggerType>
+        <triggerType>RecordBeforeDelete</triggerType>
     </start>
     <status>Active</status>
     <variables>
