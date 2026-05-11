@@ -164,8 +164,9 @@
     <searchLayouts>
         <searchResultsAdditionalFields>Date__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Health_Profile__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Total_Daily_Calories__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CREATED_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Daily_Calories_Consumed__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Daily_Calories_Burned__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Net_Calories__c</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>

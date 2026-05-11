@@ -168,7 +168,7 @@
     <relatedLists>
         <fields>NAME</fields>
         <fields>Date__c</fields>
-        <fields>Total_Daily_Calories__c</fields>
+        <fields>Daily_Calories_Consumed__c</fields>
         <relatedList>Daily_Record_Log__c.Health_Profile__c</relatedList>
         <sortField>Date__c</sortField>
         <sortOrder>Desc</sortOrder>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <excludeButtons>OpenSlackRecordChannel</excludeButtons>
     <excludeButtons>Submit</excludeButtons>
     <layoutSections>
         <customLabel>false</customLabel>
@@ -12,8 +13,8 @@
                 <field>Daily_Record_Log__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Total_Calories_Burned__c</field>
+                <behavior>Readonly</behavior>
+                <field>Total_Minutes__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -23,7 +24,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>Total_Minutes__c</field>
+                <field>Total_Calories_Burned__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>

@@ -199,6 +199,12 @@
         <locationX>0</locationX>
         <locationY>0</locationY>
         <inputAssignments>
+            <field>Calories_Burned__c</field>
+            <value>
+                <elementReference>Calories_Burned</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
             <field>Duration_Minutes__c</field>
             <value>
                 <elementReference>Duration_Minutes</elementReference>
@@ -302,7 +308,24 @@
             <fieldText>Duration Minutes</fieldText>
             <fieldType>InputField</fieldType>
             <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
-            <isRequired>false</isRequired>
+            <isRequired>true</isRequired>
+            <scale>0</scale>
+            <styleProperties>
+                <verticalAlignment>
+                    <stringValue>top</stringValue>
+                </verticalAlignment>
+                <width>
+                    <stringValue>12</stringValue>
+                </width>
+            </styleProperties>
+        </fields>
+        <fields>
+            <name>Calories_Burned</name>
+            <dataType>Number</dataType>
+            <fieldText>Calories Burned</fieldText>
+            <fieldType>InputField</fieldType>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+            <isRequired>true</isRequired>
             <scale>0</scale>
             <styleProperties>
                 <verticalAlignment>

@@ -163,9 +163,9 @@
     <pluralLabel>Exercise Logs</pluralLabel>
     <searchLayouts>
         <searchResultsAdditionalFields>Daily_Record_Log__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Daily_Record_Date__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Total_Minutes__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Total_Calories_Burned__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CREATED_DATE</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
     <startsWith>Vowel</startsWith>

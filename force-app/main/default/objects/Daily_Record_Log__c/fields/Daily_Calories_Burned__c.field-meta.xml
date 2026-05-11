@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Total_Calories_Burned__c</fullName>
-    <label>Total Calories Burned</label>
-    <summarizedField>Exercise_Log_Item__c.Calories_Burned__c</summarizedField>
-    <summaryForeignKey>Exercise_Log_Item__c.Exercise_Log__c</summaryForeignKey>
+    <fullName>Daily_Calories_Burned__c</fullName>
+    <label>Daily Calories Burned</label>
+    <summarizedField>Exercise_Log__c.Total_Calories_Burned__c</summarizedField>
+    <summaryForeignKey>Exercise_Log__c.Daily_Record_Log__c</summaryForeignKey>
     <summaryOperation>sum</summaryOperation>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
