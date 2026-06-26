@@ -76,5 +76,45 @@
         <members>Health_Profile__c.New_Daily_Record_Log</members>
         <name>WebLink</name>
     </types>
+    <!-- Experience Cloud site metadata -->
+    <types>
+        <members>*</members>
+        <name>ExperienceBundle</name>
+    </types>
+
+    <types>
+        <members>*</members>
+        <name>Network</name>
+    </types>
+
+    <types>
+        <members>*</members>
+        <name>CustomSite</name>
+    </types>
+    <!-- External cloned profile -->
+    <types>
+        <members>Health Tracker Community User</members>
+        <name>Profile</name>
+    </types>
+
+    <types>
+        <members>*</members>
+        <name>NavigationMenu</name>
+    </types>
+
+    <types>
+        <members>*</members>
+        <name>NetworkBranding</name>
+    </types>
+
+    <types>
+        <members>*</members>
+        <name>BrandingSet</name>
+    </types>
+
+    <types>
+        <members>*</members>
+        <name>ContentAsset</name>
+    </types>
     <version>66.0</version>
 </Package>
